@@ -1,0 +1,6 @@
+<html>
+<h2>List of All Users</h2>
+{% for user in user_list %}
+<a href="/show_ratings?user_id={{user.id }}"<p>User {{ user.id }} [click to see ratings]</p>
+{% endfor %}
+</html>

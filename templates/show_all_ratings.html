@@ -1,0 +1,6 @@
+<html>
+<h2>List of All Ratings for User {{ user_id }}</h2>
+{% for rating in ratings %}
+<p><i>Movie title</i>: {{ rating.movie.name }} <i>Rating</i>: {{ rating.rating }} </p>
+{% endfor %}
+</html>
